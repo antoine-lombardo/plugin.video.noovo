@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+  <!-- General -->
+  <category label="$LOCALIZE[128]">
+    <setting type="lsep" label="Authentification" />
+    <setting id="username" type="text" label="Nom d'utilisateur" default="" />
+    <setting id="password" type="text" label="Mot de passe" option="hidden" default="" />
+    <setting id="site"  type="select" label="Site de connexion" values="bell" default="bell" />
+  </category>
+</settings>
